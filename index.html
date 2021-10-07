@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>Page Title</title>
+	<link rel="stylesheet" href="./style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+	crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div id="forms_wrap" class="forms_wrap_style">
+		<div class="formTab" id="tab1">
+			<form action="" id="mainForm">
+				<label for="nome_disciplina">Nome da disciplina:</label><br> <!-- Mudar action -->
+				<input type="text" id="nome_disciplina" name="nome_disciplina" class="text_input_style"
+				value="Circuitos Eletrônicos I"><br>
+				<label for="codigo_disciplina">Código da disciplina:</label><br>
+				<input type="text" id="codigo_disciplina" name="codigo_disciplina" class="text_input_style" 
+				value="SEL0609"><br>
+				<label for="playlist_id">URL da playlist:</label><br>
+				<input type="text" id="playlist_id" name="playlist_id" class="text_input_style" 
+				value="PLwjK_iyK4LLDoFG8FeiKAr3IStRkPSxqq"><br>
+				<div class="submit_div">
+					<button type="button" class="submit_style" onclick="nextStep()">Próximo</button>
+				</div>
+			</form>
+		</div>
+		<div class="formTab" id="tab2">
+		<div id="loading">
+			Carregando...
+		</div>
+		</div>
+		<div class="submit_div" id="submit2">
+			<button type="button" class="submit_style" onclick="prevStep()">Anterior</button>
+			<button type="button" class="submit_style" onclick="formComplete()">Próximo</button>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src ="./script.js"></script>
+</body>

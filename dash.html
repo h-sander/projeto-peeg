@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title id="titulo"> </title>
+	<link rel="stylesheet" href="dash_style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header class="dashHeader">
+		<h1  id="mainHeaderId"></h1>
+		<figure>
+			<img class="logo" src="./uspLogo.png">
+		</figure>
+		<!-- <figure>
+			<img class="logo" src="./eescLogo.png">
+		</figure>
+		<figure>
+			<img class="logo" src="./poliLogo.png">
+		</figure> -->
+		
+	</header>
+	<div class="bigWrap">
+		<div class="playlist">
+			<div class="listajs-div">
+			<table id="listajs">
+			</table>
+			</div>
+			<div class="maisinfo" onclick="clickOnTag1();"><a id="maisInformacoes" onclick="location.hash=''; location.hash='#map';" href="#gforms">Mais &#x25BC;</a></div>
+		</div>
+
+		<div class="player">
+			<iframe id="vid_frame" class= "vid-frame-style" src="https://www.youtube.com/embed/" frameborder="0"
+		width="100%" height="100%" allow="accelerometer; autoplay; clipboard-write" allowfullscreen></iframe>
+		</div>
+		<div id="playlist2" class="playlist2-style">
+					<table id="playlist-2-list">
+					</table>
+		</div>
+		<div class="apoio"><a id="apoioId" href="" target="_blank">Clique aqui para acessar o material de apoio da aula</a></div>
+		<div class="gforms-wrap">
+			<iframe id="gforms" class="gforms-style" src="https://edisciplinas.usp.br/acessar/"
+			width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+		</div>
+		<div class="maisinfo" onclick="clickOnTag2();"><a id="voltarAoTopo" onclick="location.hash=''; location.hash='#map';" href="#vid_frame">Voltar ao topo &#x25B2;</a></div>
+		<a href="dash_files.zip" class="downloadSrcBut" download>Baixar arquivos-fonte</a><br><a id="newTxt" class="downloadSrcBut">Baixar JS auxiliar</a><br>
+	</div>
+	<script type="text/javascript" src="FileSaver.js"></script>
+	<script type="text/javascript" src="dash_script.js"></script>
+
+</body>
+
+</html>
