@@ -2,4 +2,4 @@
 
 Hey there! Soon, there will be a well written README file for this repository.
 
-![Alt Text](https://media4.giphy.com/media/QvZ5NKEPk1Mg9yv41o/giphy.gif)
+![Alt Text](https://media0.giphy.com/media/xafwBqHIr4eGLQcUAL/giphy.gif?cid=790b7611ffbbbdfa5b2f9d389cb91d1f500bb7200d5d5e4e&rid=giphy.gif&ct=g)
