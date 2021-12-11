@@ -7,4 +7,4 @@ Vídeos sobre o funcionamento de cada ferramenta serão feitos em breve.
 
 NOTA IMPORTANTE: A ferramenta XML2desc não é suportada pelo Firefox, para utilizá-la de maneira otimizada, deve-se utilizar o Chrome ou o Opera.
 
-![Alt Text](https://media0.giphy.com/media/xafwBqHIr4eGLQcUAL/giphy.gif?cid=790b7611ffbbbdfa5b2f9d389cb91d1f500bb7200d5d5e4e&rid=giphy.gif&ct=g)
+<!--- ![Alt Text](https://media0.giphy.com/media/xafwBqHIr4eGLQcUAL/giphy.gif?cid=790b7611ffbbbdfa5b2f9d389cb91d1f500bb7200d5d5e4e&rid=giphy.gif&ct=g) --->
